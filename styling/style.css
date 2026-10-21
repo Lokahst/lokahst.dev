@@ -178,10 +178,10 @@ a {
   align-items: flex-start;
   gap: 14px;
   padding: 18px 20px;
-  background: #f5f8ff;
-  border: 1px solid #80aaf4;
+  background: var(--bg-muted);
+  border: 1px solid var(--border);
   border-radius: var(--radius);
-  color: #265fc8;
+  color: var(--text);
 }
 .info-card-content {
   display: flex;
@@ -196,7 +196,7 @@ a {
 .info-card-content p {
   font-size: 14px;
   line-height: 1.55;
-  color: #374151;
+  color: var(--text-muted);
 }
 .section-head {
   margin-bottom: 36px;
